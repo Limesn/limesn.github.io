@@ -153,7 +153,7 @@ a:hover {
     margin-top: -66px;
 }
 .contact-content{
-    margin-left: 65px;
+    margin-left: 0px;
     margin-top: -66px;
     text-align: center;
 }
@@ -367,4 +367,33 @@ footer {
 .footer-content p {
     color: #34495E;
     font-size: 14px;
+}
+
+
+.weixin {
+    position: relative;
+}
+ 
+.weixin img.qrcode {
+  position: absolute;
+  z-index: 99;
+  top: -15px;
+  right: 85px;
+  width: 14rem;
+  max-width: none;
+  height: 14rem;
+  transform: scale(0);
+  transform-origin: top;
+  opacity: 0;
+  border: 0.1rem solid #0085ba;
+  border-radius: .25rem;
+  -webkit-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+ 
+}
+ 
+.weixin:hover img.qrcode {
+    transform: scale(1);
+    opacity: 1;
 }
