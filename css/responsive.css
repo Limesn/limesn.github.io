@@ -45,7 +45,7 @@
         float: left;
         width: 100%;
     }
-    #newsletter input[type="email"] {
+    #QA input[type="email"] {
         font-size: 16px;
     }
 }

@@ -192,35 +192,41 @@ a:hover {
 .single-portfolio a:hover {
     background: #41C8DE;
 }
-/* NEWSLETTER SIGNUP
+/* QA SIGNUP
  ================================================ */
 
-#newsletter {
+#QA {
     background: #24C0D9;
     background-size: cover;
     background-position: 0% 80%;
     padding-top: 40px;
     padding-bottom: 30px;
 }
-#newsletter .form-control {
+#QA .form-control {
     border: none;
     height: 50px;
     margin: 20px 0;
     font-size: 18px;
     padding-left: 20px;
 }
-#newsletter h2 {
+#QA h1,QA h2 {
     margin-top: 50px;
     color: #fff;
 }
-#newsletter p {
+#QA p {
     color: #fff;
     margin: 20px 0;
 }
-#newsletter input {
+
+#QA a {
+    color: #fff;
+    margin: 20px 0;
+}
+
+#QA input {
     display: inline-block;
 }
-.newsletter {
+.QA {
     position: relative;
     top: -70px;
     right: -1px;
@@ -229,7 +235,7 @@ a:hover {
     color: #fff;
     height: 50px;
 }
-.newsletter:hover {
+.QA:hover {
     background: #454545;
     color: #fff;
 }
@@ -288,23 +294,23 @@ a:hover {
 /* GET TRIAL
 ================================================ */
 
-#get-trial {
+#join {
     background: #34495E;
     padding: 120px 0;
 }
-#get-trial h4 {
+#join h4 {
     display: inline-block;
     color: #fff;
     font-size: 18px;
     font-weight: 300;
     margin: 20px;
 }
-.get-trial {
+.join {
     background: #24C0D9;
     border: none;
     color: #fff;
 }
-.get-trial:hover {
+.join:hover {
     background: #fff;
     color: #222;
 }
