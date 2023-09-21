@@ -403,3 +403,27 @@ footer {
     transform: scale(1);
     opacity: 1;
 }
+
+/* GET TRIAL
+================================================ */
+
+#QA_content {
+    background: #34495E;
+    padding: 120px 0;
+}
+#QA_content h4 {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px;
+}
+.QA_content {
+    background: #24C0D9;
+    border: none;
+    color: #fff;
+}
+.QA_content:hover {
+    background: #fff;
+    color: #222;
+}
