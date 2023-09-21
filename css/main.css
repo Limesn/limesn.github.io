@@ -3,19 +3,28 @@ body {
     font-weight: 300;
     overflow-x: hidden;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+
 h1 {
     font-size: 4.5em;
     font-weight: 300;
 }
+
 h2 {
     font-size: 1.8em;
     text-transform: uppercase;
     color: #606060;
 }
+
 h3 {
     font-size: 1.7em;
     text-transform: uppercase;
@@ -23,12 +32,14 @@ h3 {
     margin-bottom: 20px;
     color: #111;
 }
+
 p {
     font-size: 15px;
     color: #727272;
     line-height: 1.5em;
     font-weight: 400;
 }
+
 a {
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
@@ -36,21 +47,25 @@ a {
     font-weight: 400;
     letter-spacing: .3px;
 }
+
 a:hover {
     -webkit-transition: background-color .3s ease;
     -moz-transition: background-color .3s ease;
     -o-transition: background-color .3s ease;
     transition: background-color .3s ease;
 }
+
 .section {
     padding: 75px 0;
 }
+
 .section-title {
     margin-bottom: 50px;
     padding-bottom: 20px;
     display: inline-block;
     border-bottom: 1px solid #24C0D9;
 }
+
 .button {
     border: none;
     padding: 12px 25px;
@@ -65,14 +80,17 @@ a:hover {
     -o-transition: background-color .3s ease;
     transition: background-color .3s ease;
 }
+
 .button:hover {
     text-decoration: none;
     background: #454545;
     border-color: #454545;
 }
+
 .overlay {
     background: rgba(43, 191, 217, 0.5);
 }
+
 /* NAVIGATION
 ================================================ */
 
@@ -83,17 +101,21 @@ a:hover {
     -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
 }
+
 .navbar-brand {
     padding: 5px 15px;
     max-width: 220px;
 }
+
 .navbar-default .navbar-nav>li>a {
     color: #949494;
     margin-right: 8px;
 }
+
 .navbar-default .navbar-nav>li>a:hover {
     color: #24C0D9;
 }
+
 /* HEADER
 ================================================ */
 
@@ -102,18 +124,22 @@ a:hover {
     background-position: 50% 50%;
     background-size: cover;
 }
+
 #home-area .container {
     padding-top: 200px;
     padding-bottom: 65px;
 }
+
 .home-content {
     color: #fff;
     padding-top: 100px;
 }
+
 .home-content h1 {
     text-transform: capitalize;
     font-weight: 200;
 }
+
 .home-content p {
     font-size: 20px;
     font-weight: 200;
@@ -122,15 +148,19 @@ a:hover {
     line-height: 1.7em;
     margin: 30px 0;
 }
+
 .home-content .home {
     border: 1px solid #fff;
     color: #fff;
 }
+
 .home-content .home:hover {
     background: #fff;
     color: #222;
 }
+
 .home-feature {}
+
 /* SERVICES
 ================================================ */
 
@@ -138,25 +168,31 @@ a:hover {
     background: #fff;
     border-bottom: 1px solid #efefef;
 }
+
 #services a:hover {
     color: #187F90;
     text-decoration: none;
 }
+
 .single-service {
     margin: 30px 25px;
 }
+
 .service-title {
     color: #24C0D9;
 }
+
 .service-content {
     margin-left: 65px;
     margin-top: -66px;
 }
-.contact-content{
+
+.contact-content {
     margin-left: 0px;
     margin-top: -66px;
     text-align: center;
 }
+
 /* PORTFOLIO
 ================================================ */
 
@@ -164,12 +200,14 @@ a:hover {
     background: #fff;
     border-bottom: 1px solid #efefef;
 }
+
 .portfolio-filter {
     position: relative;
     right: 0;
     text-transform: uppercase;
     margin: 20px;
 }
+
 .portfolio-filter a {
     font-size: 14px;
     text-decoration: none;
@@ -179,19 +217,23 @@ a:hover {
     border: 1px solid #efefef;
     margin: 10px 0;
 }
+
 .portfolio-filter a:hover {
     color: #55DDF3;
     border: 1px solid #55DDF3;
     background: #55DDF3;
     color: #fff;
 }
+
 .single-portfolio {
     float: left;
     width: 25%;
 }
+
 .single-portfolio a:hover {
     background: #41C8DE;
 }
+
 /* QA SIGNUP
  ================================================ */
 
@@ -202,6 +244,7 @@ a:hover {
     padding-top: 40px;
     padding-bottom: 30px;
 }
+
 #QA .form-control {
     border: none;
     height: 50px;
@@ -209,10 +252,13 @@ a:hover {
     font-size: 18px;
     padding-left: 20px;
 }
-#QA h1,QA h2 {
+
+#QA h1,
+QA h2 {
     margin-top: 50px;
     color: #fff;
 }
+
 #QA p {
     color: #fff;
     margin: 20px 0;
@@ -226,6 +272,7 @@ a:hover {
 #QA input {
     display: inline-block;
 }
+
 .QA {
     position: relative;
     top: -70px;
@@ -235,10 +282,12 @@ a:hover {
     color: #fff;
     height: 50px;
 }
+
 .QA:hover {
     background: #454545;
     color: #fff;
 }
+
 /* TESTIMONIAL
 ================================================ */
 
@@ -246,28 +295,34 @@ a:hover {
     background: #fff;
     border-bottom: 1px solid #efefef;
 }
+
 #owl-demo .item img {
     display: block;
     width: 100%;
     height: auto;
 }
+
 .single-testimonial {
     max-width: 500px;
     margin: 0 auto;
 }
+
 .single-testimonial img {
     max-width: 102px;
     max-height: 102px;
     border-radius: 100%;
     border: 2px solid #efefef;
 }
+
 .single-testimonial p {
     margin-top: 30px;
 }
+
 .social-networks {
     margin-top: 0px;
     margin-bottom: 30px;
 }
+
 .social-networks a {
     display: inline-block;
     border: 1px solid #24C0D9;
@@ -278,19 +333,23 @@ a:hover {
     width: 50px;
     height: 50px;
 }
+
 .social-networks a:hover {
     background: #24C0D9;
     border: 1px solid #24C0D9;
     color: #fff;
 }
+
 .testimonial {
     background: #24C0D9;
     color: #fff;
     margin-top: 20px;
 }
+
 .testimonial:hover {
     color: #fff;
 }
+
 /* GET TRIAL
 ================================================ */
 
@@ -298,6 +357,7 @@ a:hover {
     background: #34495E;
     padding: 120px 0;
 }
+
 #join h4 {
     display: inline-block;
     color: #fff;
@@ -305,15 +365,18 @@ a:hover {
     font-weight: 300;
     margin: 20px;
 }
+
 .join {
     background: #24C0D9;
     border: none;
     color: #fff;
 }
+
 .join:hover {
     background: #fff;
     color: #222;
 }
+
 /* CONTACT US
  ================================================ */
 
@@ -322,29 +385,37 @@ a:hover {
     box-shadow: none;
     padding: 20px 15px;
 }
+
 .form-control {
     height: 45px;
     font-size: 16px;
 }
+
 .send-button {
     background: #24C0D9;
     color: #fff;
 }
+
 .contact-form {
     margin-top: 30px;
     margin-bottom: 100px;
 }
+
 .contact-info {
     margin-top: 30px;
 }
+
 .contact-info span {
     color: #24C0D9;
     margin-right: 10px;
 }
-.contact-info, .business-hours {
+
+.contact-info,
+.business-hours {
     margin-bottom: 30px;
     margin-left: 10px;
 }
+
 /* FOOTER
 ================================================ */
 
@@ -353,12 +424,15 @@ footer {
     border-top: 1px solid #efefef;
     padding: 40px 0;
 }
+
 .footer-menu li {
     border-right: 1px solid #e4e4e4;
 }
+
 .footer-menu li:last-child {
     border-right: none;
 }
+
 .footer-menu a {
     color: #A8A8A8;
     font-size: 11px;
@@ -366,43 +440,46 @@ footer {
     font-weight: 600;
     padding: 0 5px;
 }
+
 .footer-menu a:hover {
     color: #41C8DE;
     text-decoration: none;
 }
+
 .footer-content p {
     color: #34495E;
     font-size: 14px;
 }
 
 
-.weixin {
+/* .weixin {
     position: relative;
 }
- 
+
 .weixin img.qrcode {
-  position: absolute;
-  z-index: 99;
-  top: -15px;
-  right: 85px;
-  width: 14rem;
-  max-width: none;
-  height: 14rem;
-  transform: scale(0);
-  transform-origin: top;
-  opacity: 0;
-  border: 0.1rem solid #0085ba;
-  border-radius: .25rem;
-  -webkit-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
- 
+    position: absolute;
+    z-index: 99;
+    top: -15px;
+    right: 45px;
+    width: 14rem;
+    max-width: none;
+    height: 14rem;
+    transform: scale(0);
+    transform-origin: center;
+    opacity: 0;
+    border: 0.1rem solid #0085ba;
+    border-radius: .25rem;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
 }
- 
+
 .weixin:hover img.qrcode {
     transform: scale(1);
     opacity: 1;
-}
+} */
+
 
 /* GET TRIAL
 ================================================ */
@@ -413,6 +490,7 @@ footer {
     background-size: cover;
     padding: 80px 0;
 }
+
 #QA_content h4 {
     display: inline-block;
     color: #fff;
@@ -420,16 +498,21 @@ footer {
     font-weight: 300;
     margin: 20px;
 }
-#QA_content h1,QA h2 {
+
+#QA_content h1,
+QA h2 {
     margin-top: 50px;
     color: #fff;
 }
+
 .QA_content {
     background: #24C0D9;
     border: none;
     color: #fff;
 }
+
 .QA_content:hover {
     background: #fff;
     color: #222;
 }
+
