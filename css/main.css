@@ -71,7 +71,7 @@ a:hover {
     border-color: #454545;
 }
 .overlay {
-    background: rgba(43, 191, 217, 0.7);
+    background: rgba(43, 191, 217, 0.5);
 }
 /* NAVIGATION
 ================================================ */
@@ -408,8 +408,10 @@ footer {
 ================================================ */
 
 #QA_content {
-    background: #34495E;
-    padding: 120px 0;
+    background: url(https://pic.imgdb.cn/item/64f40782661c6c8e54ffdc2b.jpg) no-repeat;
+    background-position: 60% 20%;
+    background-size: cover;
+    padding: 80px 0;
 }
 #QA_content h4 {
     display: inline-block;
@@ -417,6 +419,10 @@ footer {
     font-size: 18px;
     font-weight: 300;
     margin: 20px;
+}
+#QA_content h1,QA h2 {
+    margin-top: 50px;
+    color: #fff;
 }
 .QA_content {
     background: #24C0D9;
